@@ -1,0 +1,11 @@
+.contact {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+
+.contact a {
+  color: var(--petrol);
+  font-size: .92rem;
+  font-weight: 800;
+}

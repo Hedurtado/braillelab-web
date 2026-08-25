@@ -32,7 +32,8 @@ Se aprueban siete rutas públicas de primer nivel. Políticas, aviso de privacid
 
 - Logotipo o palabra marca de BrailleLab Ecuador y sello visible de BrailleTech Challenge 2026.
 - Enlaces: El reto, Participar, Cronograma, Recursos, BrailleLab y Aliados.
-- Un único CTA principal visible: `Inscribir equipo`, solamente mientras el formulario esté habilitado.
+- Un único CTA principal por pantalla. Mientras el formulario esté habilitado, la acción primaria es `Inscribir equipo`; se puede repetir en navegación, hero y cierre, pero siempre conduce al mismo enlace operativo.
+- Si el formulario no está habilitado o su enlace no está confirmado, no mostrar `Inscribir equipo` ni un control deshabilitado: usar `Consultar cronograma` como CTA principal y mantener `Conocer el reto`, `Descargar bases` o `Contactar al equipo` como acciones secundarias según la ruta.
 - En móvil, menú desplegable accesible; no utilizar navegación solo con iconos.
 
 ### Barra de estado
@@ -53,7 +54,7 @@ Se mostrará encima de la navegación solo cuando exista un estado útil y confi
 | # | Módulo | Contenido necesario | Recurso visual | Acción |
 | ---: | --- | --- | --- | --- |
 | 1 | Barra de estado | Estado y fecha confirmados. | Punto Braille de estado + etiqueta textual. | Ver detalle. |
-| 2 | Hero | Nombre, propósito, fecha y ciudad/sede solo si están confirmados para publicación. | Fotografía propia o diagrama de celda Braille de seis puntos. | Inscribir equipo / conocer el reto. |
+| 2 | Hero | Nombre, propósito, fecha y ciudad/sede solo si están confirmados para publicación. | Fotografía propia o diagrama de celda Braille de seis puntos. | Primaria: inscribir solo con registro activo; si no, consultar cronograma. Secundaria: conocer el reto. |
 | 3 | Datos esenciales | IES elegibles, equipos de 3 a 5, dos fases y Demo Day. | Cuatro módulos de datos. | Ver participación. |
 | 4 | El reto en una frase | Requisito técnico mínimo y alcance. | Diagrama simple 1--4 / 2--5 / 3--6. | Ver reto. |
 | 5 | Recorrido de competencia | Fase 1, Design Review, Fase 2 y Demo Day. | Ruta conectada por nodos, no una placa electrónica decorativa. | Ver cronograma. |
@@ -61,9 +62,9 @@ Se mostrará encima de la navegación solo cuando exista un estado útil y confi
 | 7 | Evidencia de proceso | Una actividad, prototipo o sesión real disponible para difusión. | Fotografía documental propia con pie de foto. | Ver BrailleLab. |
 | 8 | Próximos hitos | Hasta cuatro hitos del cronograma vigente. | Línea temporal compacta. | Ver cronograma completo. |
 | 9 | Recursos destacados | Bases, guía técnica, formulario y FAQ. | Fichas documentales numeradas. | Ir a recursos. |
-| 10 | Participación | Breve llamada dirigida a estudiantes. | Progresión amarilla de seis puntos. | Inscribir equipo. |
+| 10 | Participación | Breve llamada dirigida a estudiantes. | Progresión amarilla de seis puntos. | Repite la CTA primaria vigente; no crea una acción competidora. |
 | 11 | Aliados confirmados | Únicamente logos y nombres autorizados. | Franja de logos sin tarjetas ficticias. | Ver alianzas. |
-| 12 | Cierre | Recordatorio de acción y canal de contacto. | Fondo Azul noche con patrón Braille tenue. | Inscribir / contactar. |
+| 12 | Cierre | Recordatorio de acción y canal de contacto. | Fondo Azul noche con patrón Braille tenue. | Primaria: CTA vigente. Secundaria: contactar. |
 
 ### 4.2 El reto (`/reto`) — 6 módulos
 

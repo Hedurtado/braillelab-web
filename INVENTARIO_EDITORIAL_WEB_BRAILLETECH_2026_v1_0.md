@@ -31,12 +31,12 @@ Una fuente documentada no equivale automáticamente a autorización de publicaci
 
 | Tipo de contenido | Fuente primaria | Regla de uso |
 | --- | --- | --- |
-| Reto, elegibilidad y requisitos | `03_Bases_Reglamento/derivados/01_Bases_Reglamento_Publicas.pdf` y `02_Guia_Tecnica.pdf` | Adaptar para web sin cambiar su alcance. |
+| Reto, elegibilidad y requisitos | `03_Bases_Reglamento/derivados/01_Bases_Reglamento_Publicas.pdf` y `03_Bases_Reglamento/derivados/02_Guia_Tecnica.pdf` | Adaptar para web sin cambiar su alcance. |
 | Convocatoria y proceso | `03_Bases_Reglamento/derivados/03_Convocatoria_Oficial.pdf` | La versión pública vigente prevalece sobre copias o publicaciones previas. |
 | Fechas y fases | `03_Bases_Reglamento/derivados/04_Cronograma_Oficial_Reprogramado.pdf` | Usar el cronograma reprogramado vigente. |
 | Inscripción | `03_Bases_Reglamento/derivados/05_Formulario_Inscripcion.pdf` y enlace operativo confirmado | No crear ni publicar un enlace de registro sin autorización. |
-| Rúbrica y licencias | `07_Rubrica_Evaluacion.pdf` y `06_Declaracion_Autoria_Licencias_Recursos.pdf` | Mostrar solo el resumen necesario y enlazar la fuente completa. |
-| Seguridad y validación | `08_Protocolo_Seguridad_Laboratorios.pdf` y `09_Protocolo_Validacion_Usuarios_Braille.pdf` | No simplificar de forma que elimine salvaguardas. |
+| Rúbrica y licencias | `03_Bases_Reglamento/derivados/07_Rubrica_Evaluacion.pdf` y `03_Bases_Reglamento/derivados/06_Declaracion_Autoria_Licencias_Recursos.pdf` | Mostrar solo el resumen necesario y enlazar la fuente completa. |
+| Seguridad y validación | `03_Bases_Reglamento/derivados/08_Protocolo_Seguridad_Laboratorios.pdf` y `03_Bases_Reglamento/derivados/09_Protocolo_Validacion_Usuarios_Braille.pdf` | No simplificar de forma que elimine salvaguardas. |
 | Identidad y arquitectura | `GUIA_IDENTIDAD_WEB_BRAILLELAB_BRAILLETECH_2026.md` y `ARQUITECTURA_WEB_BRAILLETECH_2026_v1_0.md` | Aplicación visual y estructural aprobada. |
 | Estado de aliados, sede y condiciones | `CONTEXTO_Y_BITACORA_BRAILLELAB.md` | Publicar solo información confirmada y autorizada. |
 
@@ -45,7 +45,7 @@ Una fuente documentada no equivale automáticamente a autorización de publicaci
 | ID | Módulo | Contenido inicial | Fuente | Estado | Recurso / condición | Roles |
 | --- | --- | --- | --- | --- | --- | --- |
 | G-01 | Marca y navegación | BrailleLab Ecuador + BrailleTech Challenge Ecuador 2026; enlaces a las siete rutas. | Arquitectura web. | Pendiente de producir. | Logo/wordmark y sello del Challenge autorizados. | Diseño, Técnico, Coordinación. |
-| G-02 | CTA principal | `Inscribir equipo` mientras el registro esté activo. | Formulario y estado operativo confirmado. | Pendiente de confirmar. | Al cerrar, sustituir por mensaje de cierre; no dejar enlace inactivo. | Contenido, Técnico, Coordinación. |
+| G-02 | CTA principal | `Inscribir equipo` mientras el registro esté activo; si no, `Consultar cronograma`. | Formulario y estado operativo confirmado. | Pendiente de confirmar. | Un solo CTA primario por pantalla. No mostrar inscripción ni un control deshabilitado sin enlace operativo; las acciones de consulta son secundarias. | Contenido, Técnico, Coordinación. |
 | G-03 | Barra de estado | Hito vigente, fecha y enlace a más información. | Cronograma reprogramado. | Listo para edición. | Datos desde una sola fuente editable; texto + icono/patrón, no solo color. | Contenido, Técnico. |
 | G-04 | Pie de página | Contacto institucional, redes confirmadas, coorganización autorizada, última actualización y futuros enlaces legales. | Coordinación y documentos aplicables. | Pendiente de confirmar. | No incluir redes, logos, aviso de privacidad o datos de contacto sin confirmación. | Contenido, Técnico, Coordinación. |
 
@@ -61,8 +61,8 @@ Una fuente documentada no equivale automáticamente a autorización de publicaci
 | I-06 | Por qué importa | Accesibilidad, funcionalidad, apertura, modularidad, reparación y reproducibilidad. | Convocatoria oficial. | Listo para edición. | Retícula Braille de bajo contraste; texto corto, no manifiesto genérico. | Contenido, Diseño. |
 | I-07 | Evidencia de proceso | Actividad, prototipo o sesión real de BrailleLab. | Evidencia y permiso de imagen por recopilar. | Pendiente de producir. | Foto documental con fecha/contexto y consentimiento; ocultar módulo si aún no existe. | Diseño, Coordinación. |
 | I-08 | Próximos hitos | Hasta cuatro fechas del cronograma vigente. | Cronograma reprogramado. | Listo para edición. | Componente alimentado desde datos, no fechas repetidas manualmente. | Contenido, Técnico. |
-| I-09 | Recursos destacados | Bases, guía técnica, formulario y FAQ. | Documentos públicos y FAQ por producir. | Parcial: FAQ pendiente. | Tarjetas con tipo, versión y enlace; no duplicar PDFs obsoletos. | Contenido, Diseño, Técnico. |
-| I-10 | Llamado a participar | Invitación concreta a equipos interdisciplinarios y de distintas IES. | Convocatoria oficial. | Listo para edición. | Amarillo señal como CTA de BrailleTech; conservar un único CTA principal. | Contenido, Diseño. |
+| I-09 | Recursos destacados | Bases, guía técnica, formulario y FAQ. | Documentos públicos y FAQ por producir. | Pendiente de confirmar. | Tarjetas con tipo, versión y enlace; publicar solo documentos con enlace validado. Añadir FAQ únicamente tras su revisión; no duplicar PDFs obsoletos. | Contenido, Diseño, Técnico. |
+| I-10 | Llamado a participar | Invitación concreta a equipos interdisciplinarios y de distintas IES. | Convocatoria oficial. | Condicionado. | Amarillo señal para la CTA primaria solo con registro activo. Si no hay enlace operativo, dirigir al cronograma como acción principal; conservar una única CTA primaria. | Contenido, Diseño. |
 | I-11 | Aliados confirmados | Sin contenido inicial hasta contar con aprobación y autorización de marca. | Bitácora y acuerdos. | No publicar aún. | Ocultar módulo completo si no hay aliados confirmados. | Coordinación, Diseño, Técnico. |
 | I-12 | Cierre | Recordatorio de inscripción o contacto según estado de convocatoria. | Estado operativo confirmado. | Pendiente de confirmar. | Fondo Azul noche y patrón sutil; CTA con acción real. | Contenido, Diseño, Técnico. |
 
@@ -75,7 +75,7 @@ Una fuente documentada no equivale automáticamente a autorización de publicaci
 | R-03 | Diagrama técnico | Puntos 1--6, estados y control electrónico general. | Guía Técnica. | Pendiente de producir. | No presentar como BOM, plano definitivo ni arquitectura obligatoria. | Diseño, Contenido técnico. |
 | R-04 | Posibilidades | Multicelda, teclado, conexión con computadora, asistencia, Bluetooth, batería y modularidad. | Convocatoria oficial. | Listo para edición. | Etiqueta explícita: “posibilidades; no requisitos adicionales”. | Contenido, Diseño. |
 | R-05 | Principios | Accesible, funcional, abierto, modular, reparable y reproducible. | Convocatoria y Bases. | Listo para edición. | Seis módulos o lista de principios. | Contenido, Diseño. |
-| R-06 | Guía Técnica | Enlace y breve explicación de para qué sirve. | `02_Guia_Tecnica.pdf`. | Pendiente de confirmar enlace. | Publicar PDF o URL final en el repositorio web. | Contenido, Técnico. |
+| R-06 | Guía Técnica | Enlace y breve explicación de para qué sirve. | `03_Bases_Reglamento/derivados/02_Guia_Tecnica.pdf`. | Pendiente de confirmar enlace. | Publicar PDF o URL final en el repositorio web. | Contenido, Técnico. |
 
 ## 6. Participar (`/participar`) — 7 módulos
 
@@ -85,7 +85,7 @@ Una fuente documentada no equivale automáticamente a autorización de publicaci
 | P-02 | Equipos | 3 a 5 estudiantes; se permiten equipos interdisciplinarios e inter-IES. | Convocatoria oficial. | Listo para edición. | Diagrama de formación de equipo. | Contenido, Diseño. |
 | P-03 | Fase 1 | Bootcamp, Design Package, office hours y Design Review. | Convocatoria y cronograma reprogramado. | Listo para edición. | Módulos secuenciales, no calendario saturado. | Contenido, Diseño. |
 | P-04 | Finalistas | Prototipado, mentoría y Demo Day; recursos sujetos a condiciones vigentes. | Cronograma y documentos operativos. | Condicionado. | No prometer kits, premios, viajes o apoyos sin confirmación escrita. | Contenido, Coordinación. |
-| P-05 | Inscripción en tres pasos | Revisar bases → preparar datos del equipo → enviar formulario. | Bases y formulario de inscripción. | Listo para edición. | Checklist visible; requisitos reales, no formulario ficticio. | Contenido, Diseño. |
+| P-05 | Inscripción en tres pasos | Revisar bases → preparar datos del equipo → enviar formulario. | Bases y formulario de inscripción. | Condicionado. | Mostrar el tercer paso y CTA de envío solo con formulario oficial activo y enlace validado. Mientras tanto, no simular inscripción; orientar al cronograma y las bases. | Contenido, Diseño. |
 | P-06 | FAQ de elegibilidad | Preguntas sobre IES, integrantes, interdisciplinariedad e inter-IES. | Bases y consultas consolidadas por preparar. | Pendiente de producir. | Respuestas revisadas antes de publicar. | Contenido, Coordinación. |
 | P-07 | Registro | Formulario integrado o enlace al formulario oficial. | Enlace operativo por confirmar. | Pendiente de confirmar. | Debe incluir aviso de privacidad y ruta de soporte; no recolectar datos en la web sin definición operativa. | Técnico, Coordinación. |
 

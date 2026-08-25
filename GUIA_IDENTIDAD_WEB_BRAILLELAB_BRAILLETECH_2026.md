@@ -32,6 +32,22 @@ La proporción 80% Azul noche, 15% Amarillo y 5% de acentos corresponde al dossi
 - Coral se reserva para condiciones que requieren atención inmediata, como cierres, cambios o alertas. No se usa para estados de éxito.
 - Todo uso de color debe mantener contraste suficiente y no ser el único medio para comunicar un estado.
 
+### Tokens funcionales y contraste
+
+Los valores de marca no se usan de forma intercambiable para texto o controles. La implementación debe definir tokens semánticos y conservar estas parejas mínimas verificadas para texto normal (WCAG AA, al menos 4.5:1):
+
+| Token propuesto | Valor | Fondo permitido | Contraste aproximado | Uso |
+| --- | --- | --- | ---: | --- |
+| `--color-on-night` | `#FFFFFF` | Azul noche | 18.38:1 | Texto principal en superficies oscuras. |
+| `--color-link-on-night` | `#00AFC7` | Azul noche | 6.97:1 | Enlaces e interacción en superficies oscuras. |
+| `--color-on-cloud` | `#0B132B` | Nube o blanco | 17.28:1 / 18.38:1 | Texto principal y controles en superficies claras. |
+| `--color-link-on-cloud` | `#007C83` | Nube | 4.69:1 | Enlaces en superficies claras. |
+| `--color-on-signal` | `#0B132B` | Amarillo señal | 11.30:1 | Texto e iconos de CTA Amarillo. |
+| `--color-on-petrol` | `#FFFFFF` | Verde petróleo | 4.99:1 | Texto sobre bloques Verde petróleo. |
+| `--color-focus-on-night` | `#F4C542` | Azul noche | 11.30:1 | Indicador de foco y contorno de controles sobre Azul noche. |
+
+No usar Cian sobre Nube, Coral sobre Nube, Amarillo sobre Nube o Verde petróleo sobre Azul noche para texto normal. Si un color se utiliza para un icono grande, borde o gráfico, se verificará su contraste según ese uso; nunca será el único indicador de estado.
+
 ## Sistema de marca
 
 ### BrailleLab Ecuador
@@ -88,6 +104,7 @@ La prioridad es la legibilidad. Deben evitarse fuentes excesivamente geométrica
 - Respetar `prefers-reduced-motion`; las animaciones no deben ser necesarias para comprender contenido o completar acciones.
 - Evitar carruseles automáticos, fondos en movimiento detrás de texto y patrones Braille de alto contraste.
 - Usar texto alternativo útil en fotografía; los elementos decorativos deben ocultarse de lectores de pantalla.
+- Los botones y enlaces deben usar los tokens funcionales definidos arriba; no se permiten combinaciones de marca sin contraste verificado.
 
 ## Criterio de consistencia
 
