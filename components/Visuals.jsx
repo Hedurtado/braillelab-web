@@ -9,3 +9,4 @@ export function SolidPlaceholder({ label, accent = "cyan" }) {
 export function Eyebrow({ children }) {
   return <p className="eyebrow">{children}</p>;
 }
+ 
